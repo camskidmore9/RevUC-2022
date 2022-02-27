@@ -1,6 +1,7 @@
 import json
 import spotipy
 import webbrowser
+import js2py
 
 username = '22dg2esbxodtefayaknufmbkq'
 clientID = '46677d4b3b424080a06193e810ca8bbb'
@@ -14,6 +15,10 @@ oauth_object = spotipy.SpotifyOAuth(clientID,clientSecret,redirectURI,scope=scop
 # Create token
 token_dict = oauth_object.get_access_token()
 token = token_dict['access_token']
+
+def playSpotify(SToken):
+    eval_res, tempfile = js2py.run_file("HEY.js")
+    tempfile.SPlay("SToken")
 
 # Create Spotify Object
 spotifyObject = spotipy.Spotify(auth=token)
