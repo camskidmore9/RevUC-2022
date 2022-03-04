@@ -1,0 +1,7 @@
+This is a list of the sources we used to make the Bot
+
+#Playing Spotify through Python
+https://dev.to/arvindmehairjan/how-to-play-spotify-songs-and-show-the-album-art-using-spotipy-library-and-python-5eki#:~:text=Go%20to%20Python%20Foundation%20and,the%20page%20and%20install%20it.&text=After%20you%20have%20installed%20the,login%20with%20your%20Spotify%20account.
+
+#Creating a Discord bot:
+https://realpython.com/how-to-make-a-discord-bot-python/
