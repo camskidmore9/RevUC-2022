@@ -19,12 +19,13 @@ What was not finished in 24 hours:
 Next steps/ideas:
  -Implement the spotify controls into the discord bot
  -Solve the streaming problem:
-  *Ideas for solving the streaming problem*:
-    IDEA 1:
+  
+*Ideas for solving the streaming problem*:    
+IDEA 1:
     -Create a React server that acts as a web player which Spotifys web sdk can easily stream the music on. Have this run in the same local file as the source code for the bot itself.
     -Find a way to pipe this audio from the React page into the bot to create a streaming environment. This could be accomplished by treating the bot as a live mic and allowing it to "talk" in the channel as the spotify stream
     
-    IDEA 2:
+IDEA 2:
     -Create a second bot that is a regular Spotify user account that takes in spotify audio as its mic and have that output the audio to the voice channel.
     -This would require users to have both the control bot and the streaming bot in their server.
     -Discord bot sends commands to the "user" streaming bot for when to join. If this cannot be accomplished on one device, a Raspberry Pi could be used to run the spotify part of the code.
