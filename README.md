@@ -5,7 +5,7 @@ Repository for RevolutionUC 2022 Hackathon. Collaboration with Bolt-Lyd
 This was supposed to end up as a Discord bot to control and implement Spotify directly into Discord however, we could not find a way to make the audio stream into voice channels.
 
 What we accomplished in the 24 hours:
--Create a Python based Discord bot
+Create a Python based Discord bot
 -Give bot ability to perform reactive text tasks in Discord
 -Allow bot to join Discord voice channel and play local files
 -Understand the Spotify API and learn how to allow a python program to access your spotify account and control what music is being listened to through various commands
